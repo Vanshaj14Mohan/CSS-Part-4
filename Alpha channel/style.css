@@ -5,3 +5,10 @@ div{
     /* background-color: #ff0000ff; can give values in hex form too.. ff-> full visible, 00->hidden*/
     padding-left: 50px;
 }
+
+#opacity{
+    height:200px;
+    width:200px;
+    background-color: rgb(229, 255, 0);
+    opacity:1; /*if set to 0 it will disappear with removing everything, deals only in 0 & 1*/
+}
