@@ -1,10 +1,19 @@
 div{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color: lightgreen;
-    transition: 1s;
+    margin: 0 auto; /*div will move to center */
+    margin-top:20px;
+    padding-left:50px;
+    /* transition shorthand */
+    /* propertyname/ duration/ tiing-function/delay */
+    transition: margin-top 2s ease-in 0.2s;
+    /* transition: 2s; transition applies after 2s */
+    /* transition-delay: 1s;our transition will apply after 1s */
 }
 
 div:hover{
-    background-color: black;
+    background-color:pink;
+    /* border-radius: 50%; */
+    margin-top:400px;
 }
