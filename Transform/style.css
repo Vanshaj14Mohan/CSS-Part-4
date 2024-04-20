@@ -27,3 +27,10 @@ div:nth-of-type(3n){
 #five{
     transform: rotate(45deg);
 }
+
+/* scale property */
+#four{
+    transform: scale(1.25);
+    /* transform: scale(1, 2); for x & y direaction
+    transform: scaleX(2); for only x direaction */
+}
