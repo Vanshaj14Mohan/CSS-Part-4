@@ -50,5 +50,5 @@ div:nth-of-type(3n){
 
 /* we can apply more than one property on an single element too */
 #six{
-    transform: rotate(45deg) translateX(150px);
+    transform: rotate(45deg) translateX(150px) scale(1.2);
 }
