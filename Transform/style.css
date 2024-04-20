@@ -34,3 +34,11 @@ div:nth-of-type(3n){
     /* transform: scale(1, 2); for x & y direaction
     transform: scaleX(2); for only x direaction */
 }
+
+/* translate proprety */
+#three{
+    transform: translate(20px, 50px); /*move in x & y direction*/
+    /* transform: translate(-100px);  for negavtive movement*/
+    /* transform: translateX(20px); for x
+    transform: translateY(50px); for y */
+}
