@@ -48,7 +48,7 @@ div:nth-of-type(3n){
     transform: skew(20deg); /*element will tilt a lill */
 }
 
-/* we can apply more than one property on an single element too */
+/* we can apply more than one property on an single element too ie, rotate,translate, scale */
 #six{
     transform: rotate(45deg) translateX(150px) scale(1.2);
 }
