@@ -4,5 +4,5 @@
     text-align: center;
     background-color: crimson;
     margin: 10px auto;
-    box-shadow: 2px 5px 9px black; /* X offset then Y offset then blur radius then shadow color */ 
+    box-shadow: 2px 5px 8px black; /* X offset then Y offset then blur radius then shadow color */ 
 }
