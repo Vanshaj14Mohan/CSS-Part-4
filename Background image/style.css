@@ -1,6 +1,11 @@
 div{
-    height: 100px;
-    width: 400px;
+    height: 300px;
+    width: 500px;
     background-color: blue;
-    margin: 10px auto;
+    margin: 30px auto;
+    background-image: url("sky image.jpg");
+    /* background-size: contain; to repeat image in a div*/
+    background-size: cover; /*in most cases we will use this, to crop and place our image*/
+    /* background-size: auto; to stretch image */
+    color:white;
 }
