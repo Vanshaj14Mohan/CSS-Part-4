@@ -5,4 +5,19 @@ div{
     text-align: center;
     border: 3px solid black;
     margin:20px;
+    display:inline-block;
+}
+
+#static{
+    background-color: yellow;
+    position:static;
+    top:100px; /*offset*/
+    left:100px; /*offset*/
+}
+
+#relative{
+    background-color: yellow;
+    position:relative;
+    top:100px;  /*offset*/
+    left:100px; /*offset*/
 }
