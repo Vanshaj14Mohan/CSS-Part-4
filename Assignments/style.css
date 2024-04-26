@@ -1,0 +1,52 @@
+#box1{
+    height:200px;
+    width:200px;
+    background-color: blue;
+    border:2px solid black;
+    text-align: center;
+    transition:width 2s ease-in 0.5s;
+}
+
+#box1:hover{
+    width:400px;
+}
+
+#box2{
+    height:200px;
+    width:200px;
+    background-color: blueviolet;
+    border:2px solid black;
+    text-align: center;
+    transform: translate(200px, 200px);
+    transform: rotate(90deg);
+}
+
+#box3{
+    height:200px;
+    width:200px;
+    background-color: brown;
+    border:2px solid black;
+    transform:skewX(20deg);
+    text-align: center;
+}
+
+#box4{
+    height:200px;
+    width:200px;
+    background-color:burlywood;
+    box-shadow: 2px 2px 5px green;
+    text-align: center;
+}
+
+#myPic{
+    height:200px;
+    width:200px;
+    color:coral;
+    background-image: url("sky image.jpg");
+    background-size: cover;
+    opacity:50%;
+}
+
+div{
+    margin:10px;
+}
