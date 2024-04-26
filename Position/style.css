@@ -21,3 +21,10 @@ div{
     top:100px;  /*offset*/
     left:100px; /*offset*/
 }
+
+#absolute{
+    background-color: yellow;
+    position:absolute;
+    top:100px;  /*offset*/
+    left:100px; /*offset*/
+}
