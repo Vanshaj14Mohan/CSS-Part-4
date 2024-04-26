@@ -28,3 +28,10 @@ div{
     top:100px;  /*offset*/
     left:100px; /*offset*/
 }
+
+#fixed{
+    background-color: yellow;
+    position:fixed;
+    top:100px;  /*offset*/
+    left:100px; /*offset*/
+}
